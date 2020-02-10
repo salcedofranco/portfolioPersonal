@@ -1,0 +1,342 @@
+body {
+  font-family: 'Raleway Regular', arial;
+  font-size: 48px;
+  
+}
+* {
+  scroll-behavior: smooth; /*efecto Scroll desde navbar*/
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Raleway";
+
+  }
+
+  /*--------------------------------------Barra de navegacion---------------------------------------*/
+  .nav-link{
+    color: #f4f4f4;
+    cursor: pointer;
+  }
+
+  .navbar-brand{
+    font-family: "Raleway";
+  }
+
+  /*--------------------------------------FIN Barra de navegacion---------------------------------------*/
+
+
+  /*----------------------------------Comienzo Header------------------------------------*/
+  .encabezado {
+    background-image: url("../images/fondo1.jpg");
+    
+    
+   
+    padding: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .encabezado-texto h1 {  
+    font-size: 70px;
+    color: rgba(65, 65, 65, 0.945);
+    margin: 0;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Raleway Regular', arial;
+    text-align: center;
+  }
+
+  .encabezado-texto h3{
+    color: rgb(255, 102, 0);
+    margin: 0;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+    font-family: 'Raleway Regular', arial;
+  }
+
+  /*---------FIN de Header--------*/
+
+
+  /*----------------------------------SECCION ONE (Acerca de mi)------------------------------------*/
+  .seccion-one {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seccion-one h2{
+    color: #38f113;
+    font-family: 'Raleway Regular', arial;
+  }
+
+  .seccion-one img {
+    position: relative;
+    margin-top:8px ;
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+   }
+
+   .about{
+    margin-bottom: 30px;
+     padding: 1em;
+     position: relative;
+   }
+   .about h3{
+     font-family: 'Raleway Regular', arial;
+     font-size: 40px;
+     color: rgb(255, 102, 0);
+     margin: 1em;
+     margin-top: 10px ;
+   }
+   .about img{
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+      
+   }
+   .about span{
+     display: block;
+     color: #888;
+     position: absolute;
+     left: 115px;
+   }
+   .about .desc{
+     padding: 1em;
+     border-left:4px solid #10828C;
+   }
+   .about .desc h3{
+     color: #10828C;
+   }
+   .about .desc p{
+     line-height:2;
+     color:#888;
+   }
+
+  /*----FIN SECCION ONE (Acerca de mi)-----*/
+
+
+
+  /*----------------------------------SECCION TWO (Proyectos)------------------------------------*/
+
+  .seccion-two{
+    padding: 2rem;
+    background-color: rgba(228, 91, 0, 0.897);
+  }
+
+  .seccion-two h3{
+    font-family: 'Raleway Regular', arial;
+    font-size: 40px;
+    color: rgb(32, 32, 32);
+    margin-bottom: 1em;
+   }
+
+   .card-deck{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*-------FIN SECCION TWO (Proyectos)-----*/
+
+
+
+/*-----------------------------------SECCION THREE (Capacitaciones 2019)-------------------------------------*/
+   .certificado{
+    padding: 2rem;
+    background-color: rgb(32, 32, 32);
+  }
+
+  .certificado h3{
+   font-family: 'Raleway Regular', arial;
+   font-size: 40px;
+   color: rgb(255, 102, 0);
+   margin-bottom: 1em;
+  }
+
+  .mdb-lightbox{
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+  }
+  /*------------ FIN SECTION THREE CAPACITACIONES 2019--------*/
+
+
+
+  /*--------------------------------------DESCARGA CV ---------------------------------------*/
+  .cv{
+    margin: 0 auto;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    background-color: rgba(228, 91, 0, 0.897);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .cv img{
+    border-radius: 50%;
+    
+
+  }
+
+  .cv h3{
+   font-family: 'Raleway Regular', arial;
+   font-size: 40px;
+   color: rgb(32, 32, 32);
+   margin-bottom: 1em;
+  }
+
+  .mdb-lightbox{
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+  }
+  /*-------------------------------------- FIN DESCARGA CV------------------------------------*/
+
+  .banner2 h1{
+  font-size: 40px;
+    color: rgba(34, 34, 34, 0.89);
+    
+    text-shadow: 1px 1px 4px #000;
+    text-align: center;}
+
+  .banner2 img {
+   position: relative;
+   margin-top:40px ;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+  #contenedor {width: 300px;background: #bfbfbf;color: #000;}
+#contenedor2 {width: 800px;background: #bfbfbf;color: #000;word-wrap: break-word;}
+  
+  .card-deck{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+
+/*--------------------------------------REDES---------------------------------------*/
+footer .contacto {
+    padding: 30px 0;
+    background-color: rgb(37, 37, 37);  
+}
+
+footer .contacto .titulo {
+  font-family: 'Raleway Regular', arial;
+  font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: rgb(255, 102, 0);
+    text-align: center;
+    line-height: 34px;
+    width: 100%;
+  }
+
+footer .contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #616161;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea {
+    width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+    margin-bottom: 15px;
+    
+}
+footer .contacto .formulario .boton {
+    background-color: rgb(255, 136, 0);
+    margin:auto;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+footer .contacto .formulario .boton:hover{
+    background: #387bea; 
+}
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus {
+    border:2px solid #3895ea;
+}
+
+
+/*--------------------------------------REDES---------------------------------------*/
+footer .redes-sociales {
+  margin: 0 auto;
+  background-color: rgb(46, 46, 46);
+    padding: 2rem;
+  }
+
+footer .redes-sociales a{
+    color :#fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+footer  .redes-sociales .contenedor{
+    display: flex;
+    justify-content: center;
+    }
+
+
+footer .redes-sociales .linkedin:hover{
+  background: #0093ce;
+  }
+footer .redes-sociales .github:hover{
+    background: #6e5494;
+  }
+
+footer .redes-sociales .whatapps:hover{
+    background: #25d366;  
+  }
+/*----------------FIN REDES------------------------------*/
+
+.fin{
+  font-family: sans-serif;
+  background-color: #242424;
+  color: #f0f0f0;
+  padding-top: 15px;
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
