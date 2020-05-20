@@ -32,6 +32,10 @@
         <div class="navbar-brand" >
              Bienvenidos
         </div>
+        <button class="switch" id="switch">
+          <span><i class="fas fa-sun"></i></span>
+          <span><i class="fas fa-moon"></i></span>
+        </button>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -163,9 +167,7 @@
               <a id="git" href="https://agencia-de-viajes-node.herokuapp.com/">Ver Proyecto</a>
             </div>
           	
-
-
-    </div>
+      </div>
     </div>
   </section>
 
@@ -281,6 +283,17 @@
        <div class="fin"><p>Portfolio personal hecho por Franco Salcedo. (en mi computadora funciona <img src="images/ramon.png" width="50px" alt="">)</p> </div>
 
    </footer>
+
+   <script>
+    const btnSwitch = document.querySelector('#switch');
+  
+    btnSwitch.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      btnSwitch.classList.toggle('active');
+    
+    });
+  
+  </script>
 
    
 
