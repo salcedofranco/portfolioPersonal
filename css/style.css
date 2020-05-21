@@ -74,7 +74,8 @@ body.dark {
 
   /*----------------------------------Comienzo Header------------------------------------*/
   .encabezado {
-    padding: 12em;
+    padding-top: 7em;
+    padding-bottom: 7em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +93,17 @@ body.dark {
   body.dark .encabezado-texto h1 {
    color: #dbdbdb;
    text-shadow: 1px 1px 2px lightgrey;  
+  }
+
+  @media only screen and (max-width: 350px) {
+    .encabezado-texto h1 {  
+      font-size: 50px;
+      color: #3a3a3a;
+      margin: 0;
+      text-shadow: 1px 1px 2px rgb(15, 15, 15);
+      font-family: 'Raleway Regular', arial;
+      text-align: center
+    }
   }
 
   .encabezado-texto h3{
@@ -217,7 +229,7 @@ body.dark {
   }
   .container .card{
     width: 270px;
-    height: 480px;
+    height: 350px;
     overflow: hidden;
     margin: 10px;
     text-align: center;
@@ -229,14 +241,54 @@ body.dark {
     background-image: radial-gradient(circle at 33% 41%, rgba(250, 250, 250,0.03) 0%, rgba(250, 250, 250,0.03) 50%,rgba(37, 37, 37,0.03) 50%, rgba(37, 37, 37,0.03) 100%),radial-gradient(circle at 76% 49%, rgba(28, 28, 28,0.03) 0%, rgba(28, 28, 28,0.03) 50%,rgba(187, 187, 187,0.03) 50%, rgba(187, 187, 187,0.03) 100%),radial-gradient(circle at 41% 99%, rgba(247, 247, 247,0.03) 0%, rgba(247, 247, 247,0.03) 50%,rgba(120, 120, 120,0.03) 50%, rgba(120, 120, 120,0.03) 100%),radial-gradient(circle at 66% 27%, rgba(17, 17, 17,0.03) 0%, rgba(17, 17, 17,0.03) 50%,rgba(156, 156, 156,0.03) 50%, rgba(156, 156, 156,0.03) 100%),linear-gradient(194deg, rgb(20,98,107),rgb(1,82,80));
 
   }
+
+  @media only screen and (max-width: 768px) {
+    .container .card{
+      width: auto;
+      height: auto;
+      overflow: hidden;
+      margin: 10px;
+      text-align: center;
+      border-radius: 12px 12px 12px 12px;
+      background-image: radial-gradient(circle at 21% 44%, rgba(23, 23, 23,0.05) 0%, rgba(23, 23, 23,0.05) 50%,rgba(109, 109, 109,0.05) 50%, rgba(109, 109, 109,0.05) 100%),radial-gradient(circle at 21% 96%, rgba(92, 92, 92,0.05) 0%, rgba(92, 92, 92,0.05) 50%,rgba(199, 199, 199,0.05) 50%, rgba(199, 199, 199,0.05) 100%),radial-gradient(circle at 25% 37%, rgba(230, 230, 230,0.05) 0%, rgba(230, 230, 230,0.05) 50%,rgba(25, 25, 25,0.05) 50%, rgba(25, 25, 25,0.05) 100%),linear-gradient(286deg, rgb(156, 48, 160),rgb(164,60,253));
+
+    }
+    .container .card > img{
+      height: auto;
+      border-radius: 10px 10px 10px 10px;
+      margin: 5px;
+      padding: 5px;  
+    }
+
+    .descripcion-proyecto{
+      margin: 0 auto;
+      padding: 0;
+
+    }
+    .descripcion-proyecto p{
+      margin: 0 auto;
+      padding-bottom: 2px;
+    }
+
+    .descripcion-proyecto h2{
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .botones-proyectos{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5px;
+    }
+
+
+  }
   
   .container .card:hover{
     transform: scale(1.1);
     transition: 1s;
   }
   .container .card > img{
-    width: 260px;
-    height: 220px;
     border-radius: 10px 10px 10px 10px;
     margin: 5px;
     padding: 5px;  
